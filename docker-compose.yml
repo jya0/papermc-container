@@ -1,0 +1,9 @@
+services: 
+  deploy-mc-1.21.8:
+    build:
+      context: ./deploys/mc-1.21.8/
+      dockerfile: Dockerfile
+    ports:
+      - 25565:25565
+    volumes:
+      - ./world-data/deploy-mc-1.21.8:/server/world-data/                                         
