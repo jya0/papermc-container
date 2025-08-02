@@ -1,0 +1,10 @@
+# https://papermc.io/downloads
+
+# https://docs.papermc.io/misc/tools/start-script-gen/
+
+
+# https://dashboard.ngrok.com/get-started/setup/linux
+
+# https://dashboard.ngrok.com/get-started/your-authtoken
+
+# ngrok tcp 25565

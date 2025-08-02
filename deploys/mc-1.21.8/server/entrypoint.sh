@@ -34,7 +34,6 @@ if [ -z "$(ls -A)" ]; then
 
   log "Making Backup Folder"
   mkdir -p backup
-  chmod 777 */*/*
 fi
 
 
