@@ -2,6 +2,7 @@
 
 # https://docs.papermc.io/misc/tools/start-script-gen/
 
+# https://docs.papermc.io/misc/tools/start-script-gen/
 
 # https://dashboard.ngrok.com/get-started/setup/linux
 
