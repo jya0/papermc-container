@@ -37,7 +37,6 @@ if [ -z "$(ls -A)" ]; then
 fi
 
 
-
 #Makes a backup everytime server container is restarted
 export BACKUP_FOLDER="backup/$(date '+%Y-%m-%d %H:%M:%S')"
 mkdir -p "$BACKUP_FOLDER"
@@ -51,3 +50,13 @@ while [ true ]; do
     echo Server restarting...
     echo Press CTRL + C to stop.
 done
+
+
+
+#### FOR MANUAL EDITS:
+
+### ONLY IF YOU KNOW WHAT YOU ARE DOING
+
+### cd world-data/
+### java -Xms6144M -Xmx6144M -jar $SERVER_JAR nogui
+### mv $SERVER_PLUGINS plugins/.
