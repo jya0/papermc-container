@@ -8,4 +8,4 @@
 
 # https://dashboard.ngrok.com/get-started/your-authtoken
 
-# ngrok tcp 25565
+# ngrok start --all --config /home/mcadmin/.config/ngrok/ngrok-mcserver.yml
