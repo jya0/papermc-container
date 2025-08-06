@@ -9,3 +9,7 @@
 # https://dashboard.ngrok.com/get-started/your-authtoken
 
 # ngrok start --all --config /home/mcadmin/.config/ngrok/ngrok-mcserver.yml
+
+# ngrok start --all --config /home/mcadmin/.config/ngrok/ngrok-mcadmin-ssh-ayan.yml
+
+# ngrok start --all --config /home/mcadmin/.config/ngrok/ngrok-mcadmin-ssh-eshan.yml

@@ -57,6 +57,8 @@ done
 
 ### ONLY IF YOU KNOW WHAT YOU ARE DOING
 
+### MAKE SURE YOU ATTACH TO THE CONTAINER AND THEN RUN THESE COMMANDS
+
 ### cd world-data/
 ### java -Xms6144M -Xmx6144M -jar $SERVER_JAR nogui
 ### mv $SERVER_PLUGINS plugins/.
