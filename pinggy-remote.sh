@@ -1,0 +1,1 @@
+./pinggy --remote-management k63H2s1b8y0BsJUt02K8Vl
