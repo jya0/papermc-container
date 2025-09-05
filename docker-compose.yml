@@ -5,8 +5,10 @@ services:
       dockerfile: Dockerfile
     ports:
       - 25565:25565
+      - 24454:24454/udp
     stdin_open: true
     tty: true
+    restart: always
     
     volumes:
       - ./world-data/deploy-mc-1.21.8:/server/world-data/                                         

@@ -46,7 +46,7 @@ cp -r world_the_end "$BACKUP_FOLDER/."
 
 
 while [ true ]; do
-    java -Xms6144M -Xmx6144M -jar $SERVER_JAR nogui
+    java -Xms8144M -Xmx8144M -jar $SERVER_JAR nogui
     echo Server restarting...
     echo Press CTRL + C to stop.
 done
